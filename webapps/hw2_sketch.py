@@ -80,7 +80,7 @@ def main():
 # Define RULES in a function which takes one SYMBOL and applies rules generation
 def generate1(symbol1):
     if symbol1 == "X":
-        return "F[+X]F[+X]+F"
+        return "F[+X]F[+X]+F[-X]+X"
     elif symbol1 == "F":
         return "FF"
     elif symbol1 == "+":
