@@ -94,7 +94,7 @@ def generate1(symbol1):
 
 def generate2(symbol2):
     if symbol2 == "Y":
-        return "G[+Y][-Y]+Y"
+        return "G[+Y][-Y]+G*Y"
     elif symbol2 == "G":
         return "GG"
     elif symbol2 == "+":
