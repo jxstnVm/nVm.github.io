@@ -44,12 +44,12 @@ def main():
     global geom1_params, my_axiom_system, my_axiom_system1, my_axiom_system2, max_iterations
     max_iterations = ()
     geom1_params = {
-            'x':6
+            'x':3
     }
     geom1_params = Object.fromEntries(to_js(geom1_params))
     my_axiom_system = []
-    my_axiom_system1 = system1(0, 6, "X")
-    my_axiom_system2 = system2(0, 6, "Y")
+    my_axiom_system1 = system1(0, 3, "X")
+    my_axiom_system2 = system2(0, 3, "Y")
     my_axiom_system.append(my_axiom_system1)
     my_axiom_system.append(my_axiom_system2)
     
